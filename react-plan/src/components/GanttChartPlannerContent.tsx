@@ -1,10 +1,10 @@
 import {
   Gantt,
   Task,
-  EventOption,
-  StylingOption,
+  // EventOption,
+  // StylingOption,
   ViewMode,
-  DisplayOption,
+  // DisplayOption,
 } from "gantt-task-react";
 import { useState } from "react";
 import GanttChartViewMode from "./GanttChartViewMode";
