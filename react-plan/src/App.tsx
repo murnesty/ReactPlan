@@ -1,9 +1,24 @@
+import { Task } from "gantt-task-react";
 import "./App.css";
-import Content from "./components/Content";
 import Navbar from "./components/Navbar";
+import GanttChartPlannerContent from "./components/GanttChartPlannerContent";
 import Sidebar from "./components/Sidebar";
+import {
+  initDDDTasks,
+  initHelmChartTasks,
+  initJFrogTasks,
+  initKubernetesTasks,
+  initReactTasks,
+} from "./TaskHelper";
 
 function App() {
+  let studyTasks: Task[] = [];
+  studyTasks.push(...initReactTasks());
+  studyTasks.push(...initDDDTasks());
+  studyTasks.push(...initKubernetesTasks());
+  studyTasks.push(...initJFrogTasks());
+  studyTasks.push(...initHelmChartTasks());
+
   return (
     <div
       className="d-flex flex-column"
@@ -12,10 +27,8 @@ function App() {
       <Navbar />
       <div className="d-flex" style={{ height: "100%" }}>
         <Sidebar />
-        <Content />
+        <GanttChartPlannerContent heading="Study Plan" tasks={studyTasks} />
       </div>
-      {/* <Sidebar />
-      <Content /> */}
     </div>
   );
 }

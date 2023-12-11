@@ -37,6 +37,12 @@
 - installing fontawesome
   - at terminal type `npm install --save @fortawesome/fontawesome-free`
   - import this to main.tsx: `import "@fortawesome/fontawesome-free/css/all.css";`
+- installing gantt chart
+
+  - at teminal type `npm install gantt-task-react`
+  - import this to main.tsx: `import "gantt-task-react/dist/index.css";`
+  - refer to https://github.com/MaTeMaTuK/gantt-task-react
+
 - install "Reach Developer Tool" for browser
   - with this, F12 has 2 more options in menu bar: Components and Profiler
     - Components can see the components props and DOM it responsible
