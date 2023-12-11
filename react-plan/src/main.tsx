@@ -4,6 +4,9 @@ import App from "./App.tsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.css";
+import "tailwindcss/tailwind.css";
+import "popper.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Includes Popper.js
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

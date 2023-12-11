@@ -26,8 +26,11 @@
     ```
 
 - installing bootstrap
-  - at terminal, type `npm i bootstrap@latest` / `npm create bootstrap@5.2.3`
-  - import this to main.tsx: `import 'bootstrap/dist/css/bootstrap.css'` into main.tsx file
+  - at terminal, type `npm i popper.js  bootstrap@latest` / `npm create bootstrap@5.2.3`
+  - import this to main.tsx below into main.tsx file
+    - `import 'bootstrap/dist/css/bootstrap.css'`
+    - `import 'popper.js'`;
+    - `import 'bootstrap/dist/js/bootstrap.bundle.min.js'`
 - installing d3
   - at terminal type `npm install d3`
   - import this to main.tsx: `import * as d3 from 'd3';`

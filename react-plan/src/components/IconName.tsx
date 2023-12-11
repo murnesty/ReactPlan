@@ -6,14 +6,14 @@ interface Props {
 const IconName = ({ icon, heading }: Props) => {
   const style = {
     display: "flex",
-    gap: "1em",
+    gap: ".5em",
   };
-  const iconClass = `${icon} m-auto`;
+  const iconClass = `${icon} m-auto text-white`;
 
   return (
     <div style={style}>
       <i className={iconClass}></i>
-      <h5 className="m-auto">{heading || ""}</h5>
+      <h5 className="m-auto text-white">{heading || ""}</h5>
     </div>
   );
 };

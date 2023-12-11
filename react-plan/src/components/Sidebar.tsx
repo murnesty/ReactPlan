@@ -5,19 +5,23 @@ const Sidebar = () => {
     display: "flex",
     "flex-direction": "column",
     gap: "1em",
-    border: ".1em solid gray",
     padding: "1em",
   };
 
   return (
-    <div style={style}>
+    <div className="bg-dark" style={style} data-bs-theme="dark">
       <IconName icon="fa-solid fa-compass-drafting" heading="Planner" />
-      <ul>
-        <li>
-          <a>2024</a>
+
+      <ul className="nav flex-column">
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#">
+            2024
+          </a>
         </li>
-        <li>
-          <a>2025</a>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#">
+            2025
+          </a>
         </li>
       </ul>
     </div>
