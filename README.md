@@ -27,10 +27,13 @@
 
 - installing bootstrap
   - at terminal, type `npm i bootstrap@latest` / `npm create bootstrap@5.2.3`
-  - import it into your code by adding `import 'bootstrap/dist/css/bootstrap.css'` into main.tsx file
+  - import this to main.tsx: `import 'bootstrap/dist/css/bootstrap.css'` into main.tsx file
 - installing d3
   - at terminal type `npm install d3`
-  - import by adding `import * as d3 from 'd3';`
+  - import this to main.tsx: `import * as d3 from 'd3';`
+- installing fontawesome
+  - at terminal type `npm install --save @fortawesome/fontawesome-free`
+  - import this to main.tsx: `import "@fortawesome/fontawesome-free/css/all.css";`
 - install "Reach Developer Tool" for browser
   - with this, F12 has 2 more options in menu bar: Components and Profiler
     - Components can see the components props and DOM it responsible

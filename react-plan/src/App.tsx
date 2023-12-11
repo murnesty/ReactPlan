@@ -1,5 +1,5 @@
 import "./App.css";
-import Context from "./components/Context";
+import Content from "./components/Content";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       style={{ height: "100vh", width: "100vw", boxSizing: "border-box" }}
     >
       <Sidebar />
-      <Context />
+      <Content />
     </div>
   );
 }

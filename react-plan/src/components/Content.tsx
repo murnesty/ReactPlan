@@ -1,6 +1,6 @@
 import Counter from "./Counter";
 
-const Context = () => {
+const Content = () => {
   const style = {
     border: ".1em solid gray",
     padding: "1em",
@@ -11,7 +11,9 @@ const Context = () => {
   return (
     <div style={style}>
       <Counter heading={"Test Counter"} initialCount={0} />
+      <h5 className="">Plan for 2024</h5>
     </div>
   );
+};
 
-export default Context;
+export default Content;
