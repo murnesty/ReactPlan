@@ -166,10 +166,10 @@
         // Caller
         return (
             <div>
-            <ListGroup
-                items={["abc", "xyz"]}
-                heading="title"
-            />
+                <ListGroup
+                    items={["abc", "xyz"]}
+                    heading="title"
+                />
             </div>
         )
     ```
